@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CursosComponent } from './cursos.component';
 import { CursosDetalhesComponent } from './cursos-detalhes/cursos-detalhes.component';
+import { CursosService } from './cursos.service';
 
 
 
@@ -17,6 +18,9 @@ import { CursosDetalhesComponent } from './cursos-detalhes/cursos-detalhes.compo
   exports:[
     CursosComponent
     ,CursosDetalhesComponent
+  ],
+  providers:[
+    CursosService
   ]
 })
 export class CursosModule { }
