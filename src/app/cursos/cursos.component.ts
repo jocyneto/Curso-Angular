@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./cursos.component.css']
 })
 export class CursosComponent {
+  cursos: string[] = ['Java', 'BI', 'C#']
 
+  constructor(){
+
+  }
 }
